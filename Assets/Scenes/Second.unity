@@ -1844,7 +1844,7 @@ MonoBehaviour:
     - {fileID: 1404778884}
     images:
     - {fileID: 21300000, guid: 27605aa2bdb1a2f4780927b5ebde630c, type: 3}
-    - {fileID: 21300000, guid: b8c82ab63bf20784da020d315b75ab4b, type: 3}
+    - {fileID: 21300000, guid: d9fc02bb4258c754fbe56471c6633947, type: 3}
     description: "\u041F\u0440\u0430\u0432\u0438\u043B \u0442\u0430\u043A \u0442\u043E
       \u0442\u0430\u043A \u0442\u043E \u041F\u0440\u0430\u0432\u0438\u043B \u0442\u0430\u043A
       \u0442\u043E \u0442\u0430\u043A \u0442\u043E \u041F\u0440\u0430\u0432\u0438\u043B
@@ -1863,7 +1863,7 @@ MonoBehaviour:
     yearsObject:
     - {fileID: 279916985}
     images:
-    - {fileID: 0}
+    - {fileID: 21300000, guid: 98f05ac1169e4004594b8d81c8483096, type: 3}
     - {fileID: 21300000, guid: 48d34d7fd0320f54e830f50487c14a9e, type: 3}
     description: "\u041F\u0440\u0430\u0432\u0438\u043B \u0442\u0430\u043A \u0442\u043E
       \u0442\u0430\u043A \u0442\u043E \u041F\u0440\u0430\u0432\u0438\u043B \u0442\u0430\u043A
@@ -3300,7 +3300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.01
-  targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
+  targetColor: {r: 0.40392157, g: 0.42352942, b: 0.14509805, a: 1}
 --- !u!4 &1273919813 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0e9cab42338fd374fa5d40d30253b543,
@@ -3321,7 +3321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.01
-  targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
+  targetColor: {r: 0.40392157, g: 0.42352942, b: 0.14509805, a: 1}
 --- !u!1001 &1317164551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3690,7 +3690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.01
-  targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
+  targetColor: {r: 0.40392157, g: 0.42352942, b: 0.14509805, a: 1}
 --- !u!1 &1404778884 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2eb1cc840dcf7c945abcd2de016d12ed,
@@ -3711,7 +3711,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.01
-  targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
+  targetColor: {r: 0.8000001, g: 0, b: 0, a: 1}
 --- !u!1001 &1408367918
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4435,7 +4435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.01
-  targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
+  targetColor: {r: 0.40392157, g: 0.42352942, b: 0.14509805, a: 1}
 --- !u!1 &1727116275 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4d00fda8912404441b003384e09f82f4,
@@ -4462,7 +4462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.01
-  targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
+  targetColor: {r: 0.40392157, g: 0.42352942, b: 0.14509805, a: 1}
 --- !u!4 &1799923074 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9cbf06fa2517b3e48b3eb1d6cf453b30,
@@ -4483,7 +4483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.01
-  targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
+  targetColor: {r: 0.18823531, g: 0.5529412, b: 0.89411765, a: 1}
 --- !u!1 &1805543841 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 052102eb791f33b42bea8f8b3d732d49,
@@ -4510,7 +4510,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.01
-  targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
+  targetColor: {r: 0.40392157, g: 0.42352942, b: 0.14509805, a: 1}
 --- !u!4 &1843895761 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dc152fd53bc21884bb4504eaedc46eef,
@@ -4531,7 +4531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.01
-  targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
+  targetColor: {r: 0.40352103, g: 0.4245283, b: 0.14618191, a: 1}
 --- !u!1 &1920253460
 GameObject:
   m_ObjectHideFlags: 0
@@ -4648,7 +4648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.01
-  targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
+  targetColor: {r: 0.40392157, g: 0.42352942, b: 0.14509805, a: 1}
 --- !u!1001 &1957978108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5154,4 +5154,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.01
-  targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
+  targetColor: {r: 0.40392157, g: 0.42352942, b: 0.14509805, a: 1}
