@@ -5,17 +5,32 @@ using UnityEngine.UI;
 
 namespace Assets.Scripts.SliderScripts
 {
+  
     [System.Serializable]
     public class YearsObject
     {
         public int yearStart;
         public int yearEnd;
+        [Header("Human")]
+        public string name;
+        public Sprite humanSprite;
+        [Header("Description")]
         public GameObject[] yearsObject;
+        [Space(60)]
+        public Sprite[] images;
+        [Space(60)]
+        [TextArea]
+        public string description;
     }
     public class SliderObjects : MonoBehaviour
     {
         [SerializeField] Slider mySlider;
         [SerializeField] YearsObject[] yearsObjects;
+        [SerializeField] TMP_Text humanname;
+        [SerializeField] TMP_Text description;
+        [SerializeField] Image humanSprite;
+        [SerializeField] Image sprite1;
+        [SerializeField] Image sprite2;
 
         [SerializeField] TMP_Text yearText;
         private List<GameObject> objects = new List<GameObject>();
@@ -41,6 +56,7 @@ namespace Assets.Scripts.SliderScripts
                     {
                         objects.Add(obj);
                         obj.GetComponent<SmoothAnimation>().Activate();
+                        SetValues(yearsObject);
                     }
                 }
                 else
@@ -55,20 +71,14 @@ namespace Assets.Scripts.SliderScripts
                 }
             }
         }
+        void SetValues(YearsObject yo)
+        {
+            humanname.text = yo.name;
+            description.text = yo.description;
+            humanSprite.sprite = yo.humanSprite;
+            sprite1.sprite = yo.images[0];
+            sprite2.sprite = yo.images[1];
+        }
     }
+ 
 }
- /* if (value < 1350) {yearText.text=1300}
-            else if (value < 1400) { yearText.text = 1350}
-            else if (value < 1450) { yearText.text = 1400}
-            else if (value < 1500) { yearText.text = 1450}
-            else if (value < 1550) { yearText.text = 1500}
-            else if (value < 1600) { yearText.text = 1550}
-            else if (value < 1650) { yearText.text = 1600}
-            else if (value < 1700) { yearText.text = 1650}
-            else if (value < 1750) { yearText.text = 1700}
-            else if (value < 1800) { yearText.text = 1750}
-            else if (value < 1850) { yearText.text = 1800}
-            else if (value < 1900) { yearText.text = 1850}
-            else if (value < 1950) { yearText.text = 1900}
-            else if (value < 2000) { yearText.text = 1950}
-            else { yearText.text = 2000} */
