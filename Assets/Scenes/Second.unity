@@ -273,7 +273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liftSpeed: 7
-  targetY: 0.01
+  targetY: 0.0003
   targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
 --- !u!4 &195718818 stripped
 Transform:
@@ -457,7 +457,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 052102eb791f33b42bea8f8b3d732d49,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 052102eb791f33b42bea8f8b3d732d49,
         type: 3}
@@ -538,12 +538,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315295751}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0037, z: 0}
+  m_LocalPosition: {x: 0, y: 0.0021, z: 0}
   m_LocalScale: {x: 0.04, y: 0.04, z: 0.04}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 677569665}
   m_Father: {fileID: 923455262}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &315295753
 MeshCollider:
@@ -644,7 +645,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b12d07011302a494b8acea7b639dc244,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b12d07011302a494b8acea7b639dc244,
         type: 3}
@@ -1149,7 +1150,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4d00fda8912404441b003384e09f82f4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4d00fda8912404441b003384e09f82f4,
         type: 3}
@@ -1573,7 +1574,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b421c65f341af0c4ba22bf6930c7abb9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b421c65f341af0c4ba22bf6930c7abb9,
         type: 3}
@@ -1651,9 +1652,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 677569664}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalScale: {x: 25, y: 25, z: 25}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1843895761}
@@ -1671,7 +1672,7 @@ Transform:
   - {fileID: 181001932}
   - {fileID: 630907735}
   - {fileID: 1799923074}
-  m_Father: {fileID: 923455262}
+  m_Father: {fileID: 315295752}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &677569667
@@ -2166,7 +2167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liftSpeed: 7
-  targetY: 0.01
+  targetY: 0.0003
   targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
 --- !u!1 &749240146
 GameObject:
@@ -2666,7 +2667,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 677569665}
   - {fileID: 315295752}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -2725,7 +2725,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3946555a720cba6499ab524f4be466f8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3946555a720cba6499ab524f4be466f8,
         type: 3}
@@ -2908,7 +2908,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9cbf06fa2517b3e48b3eb1d6cf453b30,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9cbf06fa2517b3e48b3eb1d6cf453b30,
         type: 3}
@@ -3404,7 +3404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liftSpeed: 7
-  targetY: 0.01
+  targetY: 0.0003
   targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
 --- !u!4 &1257936794 stripped
 Transform:
@@ -3425,7 +3425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liftSpeed: 7
-  targetY: 0.01
+  targetY: 0.0003
   targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
 --- !u!4 &1273919813 stripped
 Transform:
@@ -3446,7 +3446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liftSpeed: 7
-  targetY: 0.01
+  targetY: 0.0003
   targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
 --- !u!1001 &1317164551
 PrefabInstance:
@@ -3483,7 +3483,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 80e2562f0b172e14ca1b1e313ec7cd92,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 80e2562f0b172e14ca1b1e313ec7cd92,
         type: 3}
@@ -3654,7 +3654,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: dc152fd53bc21884bb4504eaedc46eef,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dc152fd53bc21884bb4504eaedc46eef,
         type: 3}
@@ -3743,7 +3743,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 14a40fe218f51f94faab1d5158c6b3b6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14a40fe218f51f94faab1d5158c6b3b6,
         type: 3}
@@ -3816,7 +3816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liftSpeed: 7
-  targetY: 0.01
+  targetY: 0.0003
   targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
 --- !u!1 &1404778884 stripped
 GameObject:
@@ -3837,7 +3837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liftSpeed: 7
-  targetY: 0.01
+  targetY: 0.0003
   targetColor: {r: 0.8000001, g: 0, b: 0, a: 1}
 --- !u!1001 &1408367918
 PrefabInstance:
@@ -3874,7 +3874,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8dbefdfd846656b4d8cc913ccd2e8ce4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8dbefdfd846656b4d8cc913ccd2e8ce4,
         type: 3}
@@ -4023,7 +4023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liftSpeed: 7
-  targetY: 0.01
+  targetY: 0.0003
   targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
 --- !u!1001 &1494727255
 PrefabInstance:
@@ -4060,7 +4060,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0e9cab42338fd374fa5d40d30253b543,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0e9cab42338fd374fa5d40d30253b543,
         type: 3}
@@ -4566,7 +4566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liftSpeed: 7
-  targetY: 0.01
+  targetY: 0.0003
   targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
 --- !u!1 &1727116275 stripped
 GameObject:
@@ -4593,7 +4593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liftSpeed: 7
-  targetY: 0.01
+  targetY: 0.0003
   targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
 --- !u!4 &1799923074 stripped
 Transform:
@@ -4614,7 +4614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liftSpeed: 7
-  targetY: 0.01
+  targetY: 0.0003
   targetColor: {r: 0.18823531, g: 0.5529412, b: 0.89411765, a: 1}
 --- !u!1 &1805543841 stripped
 GameObject:
@@ -4641,7 +4641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liftSpeed: 7
-  targetY: 0.01
+  targetY: 0.0003
   targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
 --- !u!4 &1843895761 stripped
 Transform:
@@ -4662,7 +4662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liftSpeed: 7
-  targetY: 0.01
+  targetY: 0.0003
   targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
 --- !u!1 &1920253460
 GameObject:
@@ -4780,7 +4780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liftSpeed: 7
-  targetY: 0.01
+  targetY: 0.0003
   targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
 --- !u!1001 &1957978108
 PrefabInstance:
@@ -4817,7 +4817,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 14c1690ccc5b77e4296fba27ab44699c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14c1690ccc5b77e4296fba27ab44699c,
         type: 3}
@@ -4974,7 +4974,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 94f3a4e164ec95946849b6d18ce12e33,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 94f3a4e164ec95946849b6d18ce12e33,
         type: 3}
@@ -5063,7 +5063,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2eb1cc840dcf7c945abcd2de016d12ed,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2eb1cc840dcf7c945abcd2de016d12ed,
         type: 3}
@@ -5201,7 +5201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8181950079112103157}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.2, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5290,5 +5290,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liftSpeed: 7
-  targetY: 0.01
+  targetY: 0.0003
   targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
