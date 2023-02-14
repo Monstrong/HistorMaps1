@@ -274,7 +274,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.0003
-  targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
+  targetColor:
+    r: 0.8983569
+    g: 0.9433962
+    b: 0.3426486
+    a: 1
+  rend: {fileID: 0}
+  startColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  defaultPos: {x: 0, y: 0, z: 0}
+  targetPos: {x: 0, y: 0, z: 0}
+  isLifted: 0
+  inDefaultPos: 1
+--- !u!114 &181001938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18083325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6a8b61bad61d48aa48f59f6f930ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftSpeed: 7
+  targetY: 0.03
+  targetColor: {r: 0.8584906, g: 0.376602, b: 0.376602, a: 1}
 --- !u!4 &195718818 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b421c65f341af0c4ba22bf6930c7abb9,
@@ -2168,7 +2197,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.0003
-  targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
+  targetColor:
+    r: 0.8983569
+    g: 0.9433962
+    b: 0.3426486
+    a: 1
+  rend: {fileID: 0}
+  startColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  defaultPos: {x: 0, y: 0, z: 0}
+  targetPos: {x: 0, y: 0, z: 0}
+  isLifted: 0
+  inDefaultPos: 1
+--- !u!114 &741288608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741288602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6a8b61bad61d48aa48f59f6f930ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftSpeed: 7
+  targetY: 0.03
+  targetColor: {r: 0.8584906, g: 0.376602, b: 0.376602, a: 1}
 --- !u!1 &749240146
 GameObject:
   m_ObjectHideFlags: 0
@@ -3405,7 +3463,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.0003
-  targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
+  targetColor:
+    r: 0.8983569
+    g: 0.9433962
+    b: 0.3426486
+    a: 1
+  rend: {fileID: 0}
+  startColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  defaultPos: {x: 0, y: 0, z: 0}
+  targetPos: {x: 0, y: 0, z: 0}
+  isLifted: 0
+  inDefaultPos: 1
+--- !u!114 &1164244069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164244063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6a8b61bad61d48aa48f59f6f930ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftSpeed: 7
+  targetY: 0.03
+  targetColor: {r: 0.8584906, g: 0.376602, b: 0.376602, a: 1}
 --- !u!4 &1257936794 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 94f3a4e164ec95946849b6d18ce12e33,
@@ -3426,7 +3513,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.0003
-  targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
+  targetColor:
+    r: 0.41509432
+    g: 0.29312083
+    b: 0.115521535
+    a: 1
+  rend: {fileID: 0}
+  startColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  defaultPos: {x: 0, y: 0, z: 0}
+  targetPos: {x: 0, y: 0, z: 0}
+  isLifted: 0
+  inDefaultPos: 1
+--- !u!114 &1257936800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152238033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6a8b61bad61d48aa48f59f6f930ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftSpeed: 7
+  targetY: 0.03
+  targetColor: {r: 0.8584906, g: 0.376602, b: 0.376602, a: 1}
 --- !u!4 &1273919813 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0e9cab42338fd374fa5d40d30253b543,
@@ -3447,7 +3563,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.0003
-  targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
+  targetColor:
+    r: 0.41509432
+    g: 0.29312083
+    b: 0.115521535
+    a: 1
+  rend: {fileID: 0}
+  startColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  defaultPos: {x: 0, y: 0, z: 0}
+  targetPos: {x: 0, y: 0, z: 0}
+  isLifted: 0
+  inDefaultPos: 1
+--- !u!114 &1273919819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72710442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6a8b61bad61d48aa48f59f6f930ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftSpeed: 7
+  targetY: 0.03
+  targetColor: {r: 0.8584906, g: 0.376602, b: 0.376602, a: 1}
 --- !u!1001 &1317164551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3817,7 +3962,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.0003
-  targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
+  targetColor:
+    r: 0.41509432
+    g: 0.29312083
+    b: 0.115521535
+    a: 1
+  rend: {fileID: 0}
+  startColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  defaultPos: {x: 0, y: 0, z: 0}
+  targetPos: {x: 0, y: 0, z: 0}
+  isLifted: 0
+  inDefaultPos: 1
+--- !u!114 &1367077483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367077477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6a8b61bad61d48aa48f59f6f930ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftSpeed: 7
+  targetY: 0.03
+  targetColor: {r: 0.8584906, g: 0.376602, b: 0.376602, a: 1}
 --- !u!1 &1404778884 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2eb1cc840dcf7c945abcd2de016d12ed,
@@ -3838,7 +4012,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.0003
-  targetColor: {r: 0.8000001, g: 0, b: 0, a: 1}
+  targetColor:
+    r: 0.8000001
+    g: 0
+    b: 0
+    a: 1
+  rend: {fileID: 0}
+  startColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  defaultPos: {x: 0, y: 0, z: 0}
+  targetPos: {x: 0, y: 0, z: 0}
+  isLifted: 0
+  inDefaultPos: 1
+--- !u!114 &1404778890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404778884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6a8b61bad61d48aa48f59f6f930ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftSpeed: 7
+  targetY: 0.03
+  targetColor: {r: 0.8584906, g: 0.376602, b: 0.376602, a: 1}
 --- !u!1001 &1408367918
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4024,7 +4227,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.0003
-  targetColor: {r: 0.8983569, g: 0.9433962, b: 0.3426486, a: 1}
+  targetColor:
+    r: 0.8983569
+    g: 0.9433962
+    b: 0.3426486
+    a: 1
+  rend: {fileID: 0}
+  startColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  defaultPos: {x: 0, y: 0, z: 0}
+  targetPos: {x: 0, y: 0, z: 0}
+  isLifted: 0
+  inDefaultPos: 1
+--- !u!114 &1469210968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335464558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6a8b61bad61d48aa48f59f6f930ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftSpeed: 7
+  targetY: 0.03
+  targetColor: {r: 0.8584906, g: 0.376602, b: 0.376602, a: 1}
 --- !u!1001 &1494727255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4567,7 +4799,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.0003
-  targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
+  targetColor:
+    r: 0.41509432
+    g: 0.29312083
+    b: 0.115521535
+    a: 1
+  rend: {fileID: 0}
+  startColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  defaultPos: {x: 0, y: 0, z: 0}
+  targetPos: {x: 0, y: 0, z: 0}
+  isLifted: 0
+  inDefaultPos: 1
+--- !u!114 &1710774183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710774177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6a8b61bad61d48aa48f59f6f930ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftSpeed: 7
+  targetY: 0.03
+  targetColor: {r: 0.8584906, g: 0.376602, b: 0.376602, a: 1}
 --- !u!1 &1727116275 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4d00fda8912404441b003384e09f82f4,
@@ -4594,7 +4855,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.0003
-  targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
+  targetColor:
+    r: 0.41509432
+    g: 0.29312083
+    b: 0.115521535
+    a: 1
+  rend: {fileID: 0}
+  startColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  defaultPos: {x: 0, y: 0, z: 0}
+  targetPos: {x: 0, y: 0, z: 0}
+  isLifted: 0
+  inDefaultPos: 1
+--- !u!114 &1796817326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727116275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6a8b61bad61d48aa48f59f6f930ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftSpeed: 7
+  targetY: 0.03
+  targetColor: {r: 0.8584906, g: 0.376602, b: 0.376602, a: 1}
 --- !u!4 &1799923074 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9cbf06fa2517b3e48b3eb1d6cf453b30,
@@ -4615,7 +4905,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.0003
-  targetColor: {r: 0.18823531, g: 0.5529412, b: 0.89411765, a: 1}
+  targetColor:
+    r: 0.18823531
+    g: 0.5529412
+    b: 0.89411765
+    a: 1
+  rend: {fileID: 0}
+  startColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  defaultPos: {x: 0, y: 0, z: 0}
+  targetPos: {x: 0, y: 0, z: 0}
+  isLifted: 0
+  inDefaultPos: 1
+--- !u!114 &1799923080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279916985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6a8b61bad61d48aa48f59f6f930ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftSpeed: 7
+  targetY: 0.03
+  targetColor: {r: 0.8584906, g: 0.376602, b: 0.376602, a: 1}
 --- !u!1 &1805543841 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 052102eb791f33b42bea8f8b3d732d49,
@@ -4642,7 +4961,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.0003
-  targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
+  targetColor:
+    r: 0.41509432
+    g: 0.29312083
+    b: 0.115521535
+    a: 1
+  rend: {fileID: 0}
+  startColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  defaultPos: {x: 0, y: 0, z: 0}
+  targetPos: {x: 0, y: 0, z: 0}
+  isLifted: 0
+  inDefaultPos: 1
+--- !u!114 &1808786207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791186588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6a8b61bad61d48aa48f59f6f930ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftSpeed: 7
+  targetY: 0.03
+  targetColor: {r: 0.8584906, g: 0.376602, b: 0.376602, a: 1}
 --- !u!4 &1843895761 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dc152fd53bc21884bb4504eaedc46eef,
@@ -4663,7 +5011,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.0003
-  targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
+  targetColor:
+    r: 0.41509432
+    g: 0.29312083
+    b: 0.115521535
+    a: 1
+  rend: {fileID: 0}
+  startColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  defaultPos: {x: 0, y: 0, z: 0}
+  targetPos: {x: 0, y: 0, z: 0}
+  isLifted: 0
+  inDefaultPos: 1
+--- !u!114 &1843895767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147489671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6a8b61bad61d48aa48f59f6f930ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftSpeed: 7
+  targetY: 0.03
+  targetColor: {r: 0.8584906, g: 0.376602, b: 0.376602, a: 1}
 --- !u!1 &1920253460
 GameObject:
   m_ObjectHideFlags: 0
@@ -4781,7 +5158,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.0003
-  targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
+  targetColor:
+    r: 0.41509432
+    g: 0.29312083
+    b: 0.115521535
+    a: 1
+  rend: {fileID: 0}
+  startColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  defaultPos: {x: 0, y: 0, z: 0}
+  targetPos: {x: 0, y: 0, z: 0}
+  isLifted: 0
+  inDefaultPos: 1
+--- !u!114 &1927738591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805543841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6a8b61bad61d48aa48f59f6f930ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftSpeed: 7
+  targetY: 0.03
+  targetColor: {r: 0.8584906, g: 0.376602, b: 0.376602, a: 1}
 --- !u!1001 &1957978108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5270,6 +5676,7 @@ GameObject:
   - component: {fileID: 3086738823968824348}
   - component: {fileID: 4713498751535501546}
   - component: {fileID: 8181950079112103158}
+  - component: {fileID: 8181950079112103159}
   m_Layer: 0
   m_Name: 1450
   m_TagString: Untagged
@@ -5291,4 +5698,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   liftSpeed: 7
   targetY: 0.0003
-  targetColor: {r: 0.41509432, g: 0.29312083, b: 0.115521535, a: 1}
+  targetColor:
+    r: 0.41509432
+    g: 0.29312083
+    b: 0.115521535
+    a: 1
+  rend: {fileID: 0}
+  startColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  defaultPos: {x: 0, y: 0, z: 0}
+  targetPos: {x: 0, y: 0, z: 0}
+  isLifted: 0
+  inDefaultPos: 1
+--- !u!114 &8181950079112103159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8181950079112103157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6a8b61bad61d48aa48f59f6f930ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftSpeed: 7
+  targetY: 0.03
+  targetColor: {r: 0.8584906, g: 0.376602, b: 0.376602, a: 1}

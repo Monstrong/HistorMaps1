@@ -21,8 +21,8 @@ namespace Assets.Scripts.SliderScripts
         {
             rend = GetComponent<Renderer>();
             startColor = rend.material.color;
-            defaultPos = transform.position;
-            targetPos = new Vector3(transform.position.x, targetY, transform.position.z);
+            defaultPos = transform.localPosition;
+            targetPos = new Vector3(transform.localPosition.x, targetY, transform.localPosition.z);
         }
 
         void Update()
@@ -34,7 +34,7 @@ namespace Assets.Scripts.SliderScripts
             else if (!inDefaultPos)
             {
                 Move(defaultPos.y, startColor);
-                if (Vector3.Distance(transform.position, defaultPos) < 0.001f)
+                if (Vector3.Distance(transform.localPosition, defaultPos) < 0.001f)
                 {
                     inDefaultPos = true;
                 }
@@ -42,9 +42,9 @@ namespace Assets.Scripts.SliderScripts
         }
         public void Move(float y, Color color)
         {
-            transform.position = new Vector3(transform.position.x,
-                                                           Mathf.Lerp(transform.position.y, y, liftSpeed * Time.deltaTime),
-                                                           transform.position.z);
+            transform.localPosition = new Vector3(transform.localPosition.x,
+                                                           Mathf.Lerp(transform.localPosition.y, y, liftSpeed * Time.deltaTime),
+                                                           transform.localPosition.z);
             rend.material.color = Color.Lerp(rend.material.color, color, liftSpeed * Time.deltaTime);
         }
         public void Activate()
